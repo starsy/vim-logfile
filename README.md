@@ -2,14 +2,12 @@
 
  This plugin is used for syntax highlighting for log file created by log4j.
 
+ originated from (https://github.com/Jintian/vim-logfile)
 
 
 ## 中文指南
 ----
 [请点击这里](http://blog.dengjintian.com/vim-logfile-syntax-highlight/)
-
-
-
 
 ## Preview
 ----
@@ -23,22 +21,15 @@
 
 Edit your vimrc:
 
-    Bundle "lepture/vim-velocity"
+    Plugin "starsy/vim-logfile"
 
 and install it:
 
     :so ~/.vimrc
-    :BundleInstall
-
-
-### Install with [pathogen](https://github.com/tpope/vim-pathogen)
-
-Add a submodule:
-	
-	git submodule add git://github.com/Jintian/vim-logfile.git ~/.vim/bundle/logfile
+    :PluginInstall
 
 
 ### Others
-	git clone git://github.com/Jintian/vim-logfile.git
+	git clone git://github.com/starsy/vim-logfile.git
 	cp vim-logfile/syntax/logfile.vim ~/.vim/syntax/
 	cp vim-logfile/ftdetect/logfile.vim ~/.vim/ftdetect/
